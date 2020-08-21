@@ -9,7 +9,7 @@
 ------------
 
 
-**Skeptic Scanner** is an open-source automation tool it means to analyze the source code (HTML and PHP) and check if it contains some important elements such as ( File Upload and Forms with Input Password ), which maybe represent a significant risk. It also retrieves important pages like Admin, Rules, etc. 
+**Skeptic Scanner** is an open-source automation tool it means to analyze the source code (HTML and PHP) and check if it contains some important elements such as ( File Upload and Forms with Input Password ), which maybe represent a significant risk. It also retrieves important pages like Admin, Roles, etc. 
 
 The tool will help Application Security teams included ( Penetration Testers, Code Reviewers, and SOC teams) to find some important places to be its starting point and get more attention to these functions, which is often desirable for attackers.
 
