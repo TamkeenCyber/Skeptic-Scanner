@@ -1,0 +1,5 @@
+bs4
+pyfiglet
+pandas
+jinja2
+dload
