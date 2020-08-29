@@ -69,11 +69,11 @@ def scan():
             filepath = subdir + os.sep + file
             filepath ='/'.join(filepath.split('\\'))
 
-            if filepath.lower().endswith(".html") or  filepath.lower().endswith(".php") :
+            if filepath.lower().endswith(".html") or  filepath.lower().endswith(".php") or  filepath.lower().endswith(".jsp") :
                 with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
                     soup = BeautifulSoup(f.read(),'html.parser')
 
-                    search_keyword =['admin','rule','pass','user']
+                    search_keyword =['admin','rule','role','pass','user','register' ,'login']
                     
                     for title in search_keyword:
                         result = soup.find_all('title', text=re.compile(title, re.I))
